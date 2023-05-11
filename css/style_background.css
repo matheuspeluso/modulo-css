@@ -1,0 +1,13 @@
+.bg{
+    width: 100%; /*vai ocupar 100% da minha tela */
+    height: 400px; /*Via ter uma altura de 400px*/
+    background-image: url(../image/img.jpg); /*puxando a imagem que está localmente no meu pc*/
+    /*se deixar a linha de baixo ativa ele não ira deixar mais a imagem se reptir*/
+    background-repeat: no-repeat; 
+    background-position: center; /*ele faz com que o background seja centralizado --- pode receber os valores center , right e left , top center top right e top left */
+    background-color: rgb(0, 60, 179); /*o restante do meu background será prenchido com a cor em questão*/
+    /*desta forma ele cobre toda a area porem não repete a imagem mas sim estica ela / porem não é o modo recomendado*/
+    /* background-size: 100%,100%;  */
+    background-size: cover; /* dessa forma ele cobre toda a parte com o backgrond image sem esticar a imagem e sem perder a qualidade*/
+
+}

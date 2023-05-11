@@ -1,0 +1,11 @@
+[name]{          /*Perceba que ao estilizar usando apenas o atributo personalizado name eu estou estilizando todos os atributos names*/
+    color: blueviolet;
+    font-size: 30px;
+}
+
+[name=paragrafo]{ /*Desta forma estou estilizanbdo apenas o atributo name que recebe paragrafo*/
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+

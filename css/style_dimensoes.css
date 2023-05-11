@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.d1{
+    width: 30%;
+    padding: 20px; /*espaçamento interno com 20 pixel no topo em baixo e nas laterais*/
+    margin-left: 20px; /*espaçamento externo do lado esquerdo de 20px*/
+    background-color: rgb(143, 48, 233);
+    display: inline-block; /*responsavel por liberar que um item ficasse do lado do outro caso tenha espaço*/
+    vertical-align: top; /*usado para resolver um alinhamento por padrao pra baixo*/
+    margin-right: -4px; /*usado para tirar a margin que o display inline-block deixou entre o roxo e o vermelho*/
+}
+.d2{
+    width: 30%;
+    height: 300px;
+    background-color: rgb(102, 0, 0);
+    display: inline-block; /*responsavel por liberar que um item ficasse do lado do outro caso tenha espaço*/
+    margin-top: 10px;
+}
+.d3{
+    width: 30%;
+    padding: 20px;
+    margin: 20px; /*espaçamento externo de 20px*/
+    height: 200px;
+    background-color: rgb(137, 137, 137);
+    display: inline-block; /*responsavel por liberar que um item ficasse do lado do outro caso tenha espaço*/
+    overflow: scroll; /*dessa forma estamos setando o overflow para scroll */
+    vertical-align: top;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+
+/*Enquanto o paddin é um espaçamento interno , a margin é um espaçamento externo*/

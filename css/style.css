@@ -1,0 +1,39 @@
+/* o codigo que foi colocado abaixo ele é meio que uma receita de bolo , ou seja todos os sites que eu for fazer 
+eu coloco para zerar qq stilização padrao do meu navegador */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: normal; /* o defalut seria o bold, no caso do h2 pois o navegado coloca ela como negrito */
+    font-family: Franklin Gothic medium ;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Instrument Serif', serif;
+}
+
+/* usando a stilização puxando da classe e não da tag */
+.teste{
+    color: blueviolet;
+}
+
+/* usando a stilização puxando do id e não da tag e nem da classe;
+é um boa pratica , não usar o id no css , apenas no javascript, como uma forma de marca onde vou querer usar o javascript */
+/* #teste{
+    color: cadetblue;
+} */
+
+.paragrafo{
+    font-size: 10px;
+}
+
+p.paragrafo{    /* Usando o p.paragrafo apesar de fazer a mesma coisa que o .paragrafo , o p.paragrafo tem uma pressedencia maior!*/
+    font-size: 30px;
+}
+

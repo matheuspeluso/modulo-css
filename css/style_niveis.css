@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.teste h2.title{ /*Tem mais precedência que o de baixo*/
+    color:blueviolet;
+}
+
+h2.title{ /*Tem mais precedência que o de baixo*/
+    color: green;
+}
+
+h2{      /*não tem precedência*/
+    color: red;
+}
+
+/*Teria mais uma forma de precedencia , porem para se usar em ultimo caso*/
+
+h2{
+    color: darkgoldenrod !important; 
+}
+
